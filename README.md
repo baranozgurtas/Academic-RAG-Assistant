@@ -7,6 +7,10 @@
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_DB-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-red?logo=streamlit)
 
+## Demo
+<img width="1437" height="815" alt="demo" src="https://github.com/user-attachments/assets/16f8391a-b883-4746-87c8-5452b9b84831" />
+
+
 ## Overview
 
 Inspired by managing hundreds of research papers during graduate studies at UZH/ETH Zurich, this tool:
@@ -51,6 +55,11 @@ streamlit run app.py
 # Install Ollama from https://ollama.ai
 ollama pull llama3.2
 ollama pull nomic-embed-text
+
+# Start Ollama server (keep this terminal open)
+ollama serve
+# Note: If you launched the Ollama desktop app, this step is automatic.
+
 
 # Set in .env:
 LLM_PROVIDER=ollama
