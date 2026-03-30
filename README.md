@@ -1,4 +1,5 @@
-# Academic Paper Assistant
+# Research RAG Assistant
+
 
 > An end-to-end RAG (Retrieval-Augmented Generation) system that transforms academic PDFs into an interactive, citation-aware research assistant.
 
@@ -6,6 +7,14 @@
 ![LangChain](https://img.shields.io/badge/LangChain-0.2-green)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector_DB-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-red?logo=streamlit)
+
+## Why this project matters
+
+Researchers and students often deal with hundreds of academic papers, making it difficult to quickly extract relevant insights and trace sources.
+
+This project provides a citation-aware Retrieval-Augmented Generation (RAG) system that enables grounded question-answering across multiple PDFs.
+
+Unlike typical RAG demos, it supports both OpenAI and fully local models (Ollama) and includes measurable retrieval quality through evaluation metrics.
 
 ## Demo
 <img width="1437" height="815" alt="demo" src="https://github.com/user-attachments/assets/16f8391a-b883-4746-87c8-5452b9b84831" />
